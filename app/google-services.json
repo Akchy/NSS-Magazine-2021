@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233748812515",
+    "project_id": "magazin-d313f",
+    "storage_bucket": "magazin-d313f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233748812515:android:2401565580efead530abd6",
+        "android_client_info": {
+          "package_name": "com.davish.nsscemag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233748812515-orn3e1ak0gorv86m5joencmv1v604o0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCLLKJ5CN9g-xO4cLtMc800q578L4M6Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233748812515-orn3e1ak0gorv86m5joencmv1v604o0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

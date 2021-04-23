@@ -1,0 +1,94 @@
+[
+  {
+    "type": "Editorial",
+    "list": [
+      {
+        "id": "E0",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "അവളുടെ കണ്ണുകൾക്ക് നീലനിറമാണ്... ജലത്തിന്റെയോ ആകാശത്തിന്റെയോ നീലയല്ല… സർപ്പത്തിന്റെ കൃഷ്ണമണികളുടേതുപോലെ തിളക്കമുള്ള നീല. ആരെയും കോർത്തെടുക്കാൻ ശേഷിയുള്ളൊരു ചൂണ്ട തന്നെയാണത്…<br><br>\"നീയാരടെ കാര്യാ ഈ പറയണത് രവീ...?\"<br><br>\"നിനക്കറിയാം നന്ദാ അവളെ... ആ കണ്ണ്... അത് മാത്രം മതിയവളെ പിടികിട്ടാൻ. പക്ഷെ, പെണ്ണൊരു വരാലാണ്... വഴുതി വഴുതി ഇപ്പൊ കൊറേയായി അവള് എന്നെയിട്ട് മത്തുപിടിപ്പിക്കുന്നു...\""
+      },
+      {
+        "id": "E1",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "E2",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      }
+    ]
+  },
+  {
+    "type": "Drama",
+    "list": [
+      {
+        "id": "D0",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "D1",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "D2",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      }
+    ]
+  },
+  {
+    "type": "Art",
+    "list": [
+      {
+        "id": "A0",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "A1",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "A2",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      }
+    ]
+  },
+  {
+    "type": "Tech",
+    "list": [
+      {
+        "id": "T0",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "T1",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      },
+      {
+        "id": "T2",
+        "name": "- Author",
+        "title": "Title: new article here",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis condimentum porttitor. In ut neque rutrum, ultrices nulla in, aliquam augue. Phasellus gravida eget eros et ultricies. Vivamus varius maximus est, eu auctor orci rhoncus eget. Morbi aliquam quam turpis, vitae egestas massa vestibulum in. Suspendisse vitae mi quis felis consectetur consequat. Donec non sagittis ex, suscipit dignissim ex. Sed placerat ex sed risus mollis porta ac et risus. Duis feugiat condimentum orci. Mauris non sodales erat. Cras egestas, nibh vitae ornare semper, justo leo condimentum turpis, eu faucibus tortor arcu eget risus. Aenean viverra ligula sed lacus bibendum lacinia. Sed ultrices sem a est posuere facilisis.\n\nSuspendisse ac fermentum mauris, in interdum elit. Vivamus congue elit sit amet eros sagittis imperdiet in nec metus. Maecenas non tortor et nisi scelerisque efficitur ac at est. Nulla commodo pellentesque elit ac venenatis. Aliquam pulvinar commodo metus eget pharetra. Nunc malesuada imperdiet lacus ac ullamcorper. Duis vitae est massa. Nunc hendrerit est quis sem commodo, nec pellentesque urna porttitor. Etiam ac aliquet quam. Sed luctus, est et dapibus sodales, mauris lacus iaculis ligula, at varius est sem non ante."
+      }
+    ]
+  }
+]
