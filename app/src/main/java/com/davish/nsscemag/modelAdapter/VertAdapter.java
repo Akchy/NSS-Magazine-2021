@@ -2,6 +2,7 @@ package com.davish.nsscemag.modelAdapter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,9 +54,9 @@ public class VertAdapter extends RecyclerView.Adapter<VertAdapter.HomeViewHolder
     @Override
     public void onBindViewHolder(@NonNull final HomeViewHolder holder, final int position) {
 
-        holder.textViewCategory.setText(data.get(position).getType());
-        //Toast.makeText(context, data.get(position).getGenre(), Toast.LENGTH_SHORT).show();
-        horizontalAdapter = new HorizAdapter(data.get(position).getList(), context);
+        holder.textViewCategory.setText(data.get(position).getCategory());
+        Log.d("arc",data.get(position).getArticleList().toString());
+        horizontalAdapter = new HorizAdapter(data.get(position).getArticleList(), context);
         holder.recyclerViewHorizontal.setAdapter(horizontalAdapter);
         holder.recyclerViewHorizontal.setRecycledViewPool(recycledViewPool);
 

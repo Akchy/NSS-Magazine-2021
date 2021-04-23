@@ -6,27 +6,27 @@ import java.util.List;
 
 public class BigData {
 
-    String type;
-    List<Article> list;
+    String category;
+    List<Article> ArticleList;
 
-    public BigData(String type, List<Article> list) {
-        this.type = type;
-        this.list = list;
+    public BigData(String category, List<Article> ArticleList) {
+        this.category = category;
+        this.ArticleList = ArticleList;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
-    public List<Article> getList() {
-        return list;
+    public List<Article> getArticleList() {
+        return ArticleList;
     }
 
-    public String getType() {
-        return type;
+    public String getCategory() {
+        return category;
     }
 
-    public void setList(List<Article> list) {
-        this.list = list;
+    public void setArticleList(List<Article> articleList) {
+        this.ArticleList = articleList;
     }
 }

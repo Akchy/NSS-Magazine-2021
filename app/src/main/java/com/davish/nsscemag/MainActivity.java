@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
@@ -17,9 +18,15 @@ import android.widget.TextView;
 import com.chauthai.overscroll.RecyclerViewBouncy;
 import com.davish.nsscemag.modelAdapter.SmallAdapter;
 import com.davish.nsscemag.modelAdapter.VertAdapter;
+import com.davish.nsscemag.models.Article;
 import com.davish.nsscemag.models.BigData;
 import com.davish.nsscemag.models.SmallData;
 import com.emilsjolander.components.StickyScrollViewItems.StickyScrollView;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -28,10 +35,12 @@ import com.xw.repo.widget.BounceScrollView;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
 
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
     RecyclerViewBouncy recyclerView;
     ArrayList<SmallData> source;
     RecyclerView.LayoutManager RecyclerViewLayoutManager;
@@ -146,8 +155,8 @@ public class MainActivity extends AppCompatActivity {
         search.clearFocus();
 
 
-        imageView = (TextView) findViewById(R.id.text);
-        scrollView = (StickyScrollView) findViewById(R.id.scrollView);
+        imageView = findViewById(R.id.text);
+        scrollView =findViewById(R.id.scrollView);
         scrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
             @Override
             public void onScrollChanged() {
@@ -157,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         recyclerView
-                = (RecyclerViewBouncy) findViewById(
+                = findViewById(
                 R.id.recyclerview);
         RecyclerViewLayoutManager
                 = new LinearLayoutManager(
@@ -183,16 +192,50 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Gson gson = new GsonBuilder().create();
+
+
+        dataList = new ArrayList<>();
+        db.collection("category").get()
+                .addOnCompleteListener(task ->{
+                    if(task.isSuccessful()){
+                        for(QueryDocumentSnapshot doc : task.getResult()){
+                            Map category = doc.getData();
+                            for(Object val: category.values()){
+                                ArrayList<Article> tempArticleList = new ArrayList<>();
+                                db.collection("article").whereArrayContains("category",val).get()
+                                        .addOnCompleteListener(article_task ->{
+                                            if(article_task.isSuccessful()){
+                                                for(QueryDocumentSnapshot article_doc : article_task.getResult()){
+                                                    tempArticleList.add(article_doc.toObject(Article.class));
+                                                }
+                                                dataList.add(new BigData(val.toString(),tempArticleList));
+
+                                                Log.e("tempb",dataList.toString());
+
+                                                vertAdapter = new VertAdapter(dataList, MainActivity.this);
+                                                recyclerView1.setHasFixedSize(true);
+                                                recyclerView1.setLayoutManager(linearLayoutManager);
+                                                recyclerView1.setAdapter(vertAdapter);
+                                            }
+                                        } );
+
+
+                            }
+                        }
+                        Log.e("tempa",dataList.toString());
+
+                    }
+
+
+                } );
+
+        /*Gson gson = new GsonBuilder().create();
         String jsonFileString = Utils.getJsonFromAssets(MainActivity.this, "magazine.json");
         Type listUserType = new TypeToken<List<BigData>>() { }.getType();
         dataList = new ArrayList<>();
         dataList =gson.fromJson(jsonFileString, listUserType);
-        //Toast.makeText(getContext(), dataList.get(0).getType(), Toast.LENGTH_LONG).show();
-        vertAdapter = new VertAdapter(dataList, MainActivity.this);
-        recyclerView1.setHasFixedSize(true);
-        recyclerView1.setLayoutManager(linearLayoutManager);
-        recyclerView1.setAdapter(vertAdapter);
+        //Toast.makeText(getContext(), dataList.get(0).getType(), Toast.LENGTH_LONG).show();*/
+
 
 
     }

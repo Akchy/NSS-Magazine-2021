@@ -45,7 +45,7 @@ public class HorizAdapter extends RecyclerView.Adapter<HorizAdapter.MovieViewHol
         final Article article = articleList.get(position);
 
 
-        holder.author.setText(article.getName());
+        holder.author.setText(article.getAuthor());
 
         holder.textViewTitle.setText(article.getTitle());
 
@@ -58,8 +58,8 @@ public class HorizAdapter extends RecyclerView.Adapter<HorizAdapter.MovieViewHol
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(context, DetailedArticle.class);
-                i.putExtra("article_name", article.getName());
-                i.putExtra("article_title", article.getId());
+                i.putExtra("article_name", article.getAuthor());
+                i.putExtra("article_title", article.getTitle());
                 i.putExtra("article_desc", article.getDesc());
                 context.startActivity(i);
             }
